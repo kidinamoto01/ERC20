@@ -29,6 +29,6 @@ contract MetaCoin {
 	}
 
 	function getBalance(address addr) returns(uint) {
-		return metaCoinStorage.getBalance(addr)+10;
+		return metaCoinStorage.getBalance(addr);
 	}
 }
